@@ -33,8 +33,6 @@ var isValid = function(s) {
         const lastChar = a[a.length - 1];
         if(charMap[lastChar] === x) {
             a.pop();
-        // }else if(Object.keys(charMap).indexOf(x) > -1) {
-        //     a.push(x);
         }else {
             a.push(x);
         }
