@@ -11,6 +11,8 @@ export default function deepClone(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
+/* Question Part */
+
 const obj1 = { user: { role: "admin" } };
 const clonedObj1 = deepClone(obj1);
 
