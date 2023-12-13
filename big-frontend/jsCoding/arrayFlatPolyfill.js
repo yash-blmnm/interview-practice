@@ -27,8 +27,8 @@ function flat(arr, depth = 1) {
   }
   let depthFlag = depth == "Infinity";
   let res = [];
-  for (let i = 0; i < arr.length; i++) {
-    let val = arr[i];
+  for (let val of arr) {
+    // let val = arr[i];
     if (Array.isArray(val)) {
       res.push(...val);
       if (depthFlag) {
