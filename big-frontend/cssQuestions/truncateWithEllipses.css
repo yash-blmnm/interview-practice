@@ -1,0 +1,6 @@
+.one-line {
+    /* your code here */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
